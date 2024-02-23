@@ -8,7 +8,7 @@
 body {
     /* background-image: url('/src/images/fondodesktop.jpg'); */
     /* Ruta de la imagen de fondo predeterminada para computadoras */
-    background-color: rgb(227, 228, 230);
+    background-color: rgb(242, 242, 244);
   }
   
   .logo-img {
@@ -31,7 +31,8 @@ body {
   @media (max-width: 767px) {
     body {
      /*  background-image: url('/src/images/fondomobile.jpg'); */
-    background-color: rgb(227, 228, 230);
+     background-color: rgb(242, 242, 244);
+
 
       /* Ruta de la imagen de fondo para dispositivos móviles */
     }

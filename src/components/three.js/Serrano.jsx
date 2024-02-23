@@ -11,7 +11,7 @@ export function Serrano(props) {
   const { nodes, materials } = useGLTF('/models/serrano-transformed.glb')
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes.Mesh_0.geometry} material={materials.Material_0} />
+      <mesh geometry={nodes.Mesh_0.geometry} material={materials.Material_0} position={[0,-0.1,0]} scale={1.2} />
     </group>
   )
 }

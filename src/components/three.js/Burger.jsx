@@ -11,7 +11,7 @@ export function Burger(props) {
   const { nodes, materials } = useGLTF('/models/burger-transformed.glb')
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes.Mesh_0.geometry} material={materials.Material_0} scale={6.5} positionY={-2} />
+      <mesh geometry={nodes.Mesh_0.geometry} material={materials.Material_0} scale={7.5} position={[0,-0.3,0]} rotation={[0.2,0,-0.1]} />
     </group>
   )
 }
