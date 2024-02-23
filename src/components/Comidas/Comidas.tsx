@@ -1,28 +1,25 @@
 import { Food } from "../../Types/Food";
-import '../../style.css';
-import Experience from '../three.js/Experience.jsx';
+import "../../style.css";
+import Experience from "../three.js/Experience.jsx";
 
-const Comidas= ({foods}: {foods: Food[]}) => {
+const Comidas = ({ foods }: { foods: Food[] }) => {
   const categorias = [
-    'PAPASFRITAS', 
-    'PARAPICAR', 
-    'BRUSCHETTAS', 
-    'PIZZAS', 
-    'SANDWICHES', 
-    'LOMOS',
-    'HAMBURGUESAS',
-    'VEGGIE',
-    'ENSALADAS',
-    'TABLAS',
-    'SINTACC',
-    'CERVEZAS',
-    'TRAGOS',
-    'GASEOSAS',
-    'POSTRES'
+    "PAPASFRITAS",
+    "PARAPICAR",
+    "BRUSCHETTAS",
+    "PIZZAS",
+    "SANDWICHES",
+    "LOMOS",
+    "HAMBURGUESAS",
+    "VEGGIE",
+    "ENSALADAS",
+    "TABLAS",
+    "SINTACC",
+    "CERVEZAS",
+    "TRAGOS",
+    "GASEOSAS",
+    "POSTRES",
   ];
-
- 
-  
 
   return (
     <section className="container-fluid mt-5" id="categorias">
@@ -30,26 +27,21 @@ const Comidas= ({foods}: {foods: Food[]}) => {
         <section className="text-center mb-5" key={index}>
           <div className="row row-cols-1 row-cols-md-2 row-cols-xl-3 justify-content-center g-5">
             {foods
-              .filter(food => food.categoria === categoria.toUpperCase())
-              
-              
-              .map(food => (
+              .filter((food) => food.categoria === categoria.toUpperCase())
+
+              .map((food) => (
                 <div className="col" key={food.id}>
                   <div className="card h-100 card-transparent">
+                    <div  className="" style={{ minHeight: '300px' }}  >  {food.categoria === 'TRAGOS'  ? <img style={{minHeight: '300px',maxHeight: '300px',
+                      }} className="card-img-top"src={food.imagen} alt={food.nombre}  />   :  <Experience  name={food.nombre}/> }</div>
+                    
 
-                   
-{/* 
-                   <img
-                      style={{
-                        minHeight: '300px',
-                        maxHeight: '300px',
-                      }}
-                      className="card-img-top"
-                      src={food.imagen}
-                      alt={food.nombre}
-                    /> 
+
+
+                   {/*  <Experience name={food.nombre} /> */}
+                    {/* 
+                 
  */}
-                   <Experience  name={food.nombre}/>
 
                     <div className="card-body p-4">
                       <div className="text-center">
@@ -58,7 +50,15 @@ const Comidas= ({foods}: {foods: Food[]}) => {
                       </div>
                     </div>
                     <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                      <div className="text-center d-flex flex-column gap-1 align-items-center justify-content-center" style={{ position: 'absolute', bottom: '10px', left: '50%', transform: 'translateX(-50%)' }}>
+                      <div
+                        className="text-center d-flex flex-column gap-1 align-items-center justify-content-center"
+                        style={{
+                          position: "absolute",
+                          bottom: "10px",
+                          left: "50%",
+                          transform: "translateX(-50%)",
+                        }}
+                      >
                         <span className="card-price">{`${food.precio}`}</span>
                       </div>
                     </div>

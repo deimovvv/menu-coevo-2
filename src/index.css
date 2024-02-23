@@ -6,8 +6,9 @@
 
 /* Estilos para el cuerpo y la imagen del logo */
 body {
-    background-image: url('/src/images/fondodesktop.jpg');
+    /* background-image: url('/src/images/fondodesktop.jpg'); */
     /* Ruta de la imagen de fondo predeterminada para computadoras */
+    background-color: rgb(227, 228, 230);
   }
   
   .logo-img {
@@ -29,7 +30,9 @@ body {
   /* Media query para dispositivos móviles */
   @media (max-width: 767px) {
     body {
-      background-image: url('/src/images/fondomobile.jpg');
+     /*  background-image: url('/src/images/fondomobile.jpg'); */
+    background-color: rgb(227, 228, 230);
+
       /* Ruta de la imagen de fondo para dispositivos móviles */
     }
   

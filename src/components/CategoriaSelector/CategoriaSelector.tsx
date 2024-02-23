@@ -39,12 +39,12 @@ const CategoriasSelector: React.FC<CategoriasSelectorProps> = ({ onSelectCategor
                                 width: '150px',
                                 height: '150px',
                                 cursor: 'pointer',
-                                color: 'white',
+                                color: 'black',
                                 overflow: 'hidden'}} 
                                 onClick={() => onSelectCategory(categoria.nombre)}>
                             <img src={categoria.icono} alt={categoria.nombre} style={{ width: '70%', height: 'auto' }} />
                             <div style={{ position: 'absolute', bottom: '20px', left: '0', right: '0', textAlign: 'center' }}>{categoria.nombre}</div>
-                            <div style={{ position: 'absolute', top: '0px', left: '0', right: '0', bottom: '0', border: '5px solid white', borderRadius: '1rem' }}></div>
+                            <div style={{ position: 'absolute', top: '0px', left: '0', right: '0', bottom: '0', border: '5px solid white', borderRadius: '0.2rem' }}></div>
                         </Link>
                     </div>
                 ))}
