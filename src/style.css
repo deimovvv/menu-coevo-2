@@ -7,7 +7,7 @@
   background-color: rgb(172, 171, 171);
   color: #fff;
   padding: 10px 1;
-  font-size: 11px;
+  font-size: 14px;
 }
 .footer .btn {
   font-size: 14px;
@@ -15,7 +15,7 @@
   padding: 8px 16px;
   background-color: transparent; /* Hace el botón transparente */
   color: #fff;
-  height: 30px; /* Ajusta el alto del botón */
+  height: 40px; /* Ajusta el alto del botón */
   width: 120px; /* Ajusta el ancho del botón */
   border: none; /* Elimina el borde del botón */
   outline: none; /* Elimina el contorno al ser seleccionado */
@@ -35,7 +35,7 @@
 
 .card-title {
   font-family: monospace;
-  font-weight: 500;
+ /*  font-weight: 200; */
   font-size: 25px;
   font-style: normal;
   color: #191919; /* Color de texto para el título */
@@ -53,7 +53,7 @@
 }
 
 .card-description {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
   font-size: 18px;
   font-style: normal;

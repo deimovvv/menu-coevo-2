@@ -9,12 +9,14 @@ import { Suspense, useEffect, useState } from "react";
 import { BoxGeometry } from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { Bicho10 } from "./Bicho10";
+import { Burger } from "./Burger";
 import { CuatroQuesos } from "./CuatroQuesos";
 import { Pepperoni } from "./Pepperoni";
 /* import { Model } from "./Model";
 import ModelTest from "./ModelTest"; */
 import { ModelPizza1 } from "./PizzaOptimizada2";
 import { ModelPizza2 } from "./PizzaOptimizada3";
+import { Serrano } from "./Serrano";
 /* import { Model2 } from './Model2'; */
 
 function Loader() {
@@ -56,7 +58,7 @@ export default function Experience({name}) {
       <Environment preset={"sunset"} />
 
       
-
+      {/* Pizzas */}
     {name === 'mozzarella' &&  <ModelPizza1/>   }
     {name === 'especial' &&  <Pepperoni/>  }
     {name === 'cuatro quesos' &&  <CuatroQuesos/>  }
@@ -64,6 +66,22 @@ export default function Experience({name}) {
     {name === 'fugazza' &&  <Pepperoni/>  }
     {name === 'caprese' &&  <ModelPizza1/>   }
     {name === 'pizza brader' &&  <CuatroQuesos/>  }
+
+    {/* Sandwich */}
+    {name === 'serrano' &&  <Serrano/>  }
+
+
+    {/* Hamburguesas */}
+    {name === 'brader' &&  <Burger/>  }
+    {name === 'american brader' &&  <Burger/>  }
+    {name === 'thorin' &&  <Burger/>  }
+    {name === 'la 4:20' &&  <Burger/>  }
+    {name === 'galaxy' &&  <Burger/>  }
+
+
+
+
+
     
 
 

@@ -9,16 +9,16 @@ const CategoriasSelector: React.FC<CategoriasSelectorProps> = ({ onSelectCategor
     const categorias = [
         { nombre: 'PAPASFRITAS', icono: '/src/images/icons/papas-fritas.png' },
         { nombre: 'PARAPICAR', icono: '/src/images/icons/para-picar.png' },
-        { nombre: 'BRUSCHETTAS', icono: '/src/images/icons/bruschetta.png' },
+       /*  { nombre: 'BRUSCHETTAS', icono: '/src/images/icons/bruschetta.png' }, */
         { nombre: 'PIZZAS', icono: '/src/images/icons/pizza.png' },
         { nombre: 'SANDWICHES', icono: '/src/images/icons/sandwiches.png' },
         { nombre: 'LOMOS', icono: '/src/images/icons/sandwiches.png' },
         { nombre: 'HAMBURGUESAS', icono: '/src/images/icons/hamburguesa.png' },
         { nombre: 'VEGGIE', icono: '/src/images/icons/veggie.png' },
-        { nombre: 'ENSALADAS', icono: '/src/images/icons/ensaladas.png' },
-        { nombre: 'TABLAS', icono: '/src/images/icons/para-picar.png' },
-        { nombre: 'SINTACC', icono: '/src/images/icons/sin-tacc.png' },
-        { nombre: 'CERVEZAS', icono: '/src/images/icons/cervezas.png' },
+      /*   { nombre: 'ENSALADAS', icono: '/src/images/icons/ensaladas.png' }, */
+        /* { nombre: 'TABLAS', icono: '/src/images/icons/para-picar.png' }, */
+   /*      { nombre: 'SINTACC', icono: '/src/images/icons/sin-tacc.png' }, */
+        /* { nombre: 'CERVEZAS', icono: '/src/images/icons/cervezas.png' }, */
         { nombre: 'TRAGOS', icono: '/src/images/icons/tragos.png' },
         { nombre: 'GASEOSAS', icono: '/src/images/icons/gaseosas.png' },
         { nombre: 'POSTRES', icono: '/src/images/icons/postres.png' },
