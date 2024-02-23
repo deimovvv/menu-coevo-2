@@ -57,14 +57,14 @@ export default function Experience({name}) {
 
       
 
-    {name === 'GRANDES' &&  <ModelPizza1/>   }
-    {name === 'Cheddar y panceta' &&  <Pepperoni/>  }
-    {name === 'BRADER' &&  <CuatroQuesos/>  }
-    {name === 'lemondrop' &&  <CuatroQuesos/>  }
-    {name === 'al verdeo' &&  <Pepperoni/>  }
-    {name === 'papas hops' &&  <ModelPizza1/>   }
-    {name === 'ferroviarias' &&  <CuatroQuesos/>  }
-    {name === 'salchipapa' &&  <ModelPizza1/>   }
+    {name === 'mozzarella' &&  <ModelPizza1/>   }
+    {name === 'especial' &&  <Pepperoni/>  }
+    {name === 'cuatro quesos' &&  <CuatroQuesos/>  }
+    {name === 'mediterránea' &&  <CuatroQuesos/>  }
+    {name === 'fugazza' &&  <Pepperoni/>  }
+    {name === 'caprese' &&  <ModelPizza1/>   }
+    {name === 'pizza brader' &&  <CuatroQuesos/>  }
+    
 
 
 

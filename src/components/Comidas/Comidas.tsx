@@ -21,6 +21,9 @@ const Comidas = ({ foods }: { foods: Food[] }) => {
     "POSTRES",
   ];
 
+
+  const categoriasConImagen = ["TRAGOS", "CERVEZAS", "GASEOSAS",   "SINTACC", "PARAPICAR",  "PAPASFRITAS",  "BRUSCHETTAS" ];
+
   return (
     <section className="container-fluid mt-5" id="categorias">
       {categorias.map((categoria, index) => (
@@ -32,8 +35,14 @@ const Comidas = ({ foods }: { foods: Food[] }) => {
               .map((food) => (
                 <div className="col" key={food.id}>
                   <div className="card h-100 card-transparent">
-                    <div  className="" style={{ minHeight: '300px' }}  >  {food.categoria === 'TRAGOS'  ? <img style={{minHeight: '300px',maxHeight: '300px',
-                      }} className="card-img-top"src={food.imagen} alt={food.nombre}  />   :  <Experience  name={food.nombre}/> }</div>
+                    <div  className="" style={{ minHeight: '300px' }}  > 
+                    {
+    categoriasConImagen.includes(food.categoria) ? 
+    <img style={{minHeight: '300px', maxHeight: '300px'}} className="card-img-top" src={food.imagen} alt={food.nombre} /> 
+    : 
+    <Experience name={food.nombre}/>
+  }
+                      </div>
                     
 
 
