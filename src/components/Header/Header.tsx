@@ -9,7 +9,7 @@ const Header: React.FC = () => {
                 <div className="logo-container">
                     <Link to="/" style={{ display: 'block' }}> {/* Añadir display: block al enlace */}
                         <img
-                            src={'/src/images/logo.png'}
+                            src={'/src/images/coevo.png'}
                             className="logo-img"
                             alt="Logo de la empresa"
                         />
