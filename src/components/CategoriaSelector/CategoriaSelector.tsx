@@ -39,7 +39,7 @@ const CategoriasSelector: React.FC<CategoriasSelectorProps> = ({ onSelectCategor
                                 width: '150px',
                                 height: '150px',
                                 cursor: 'pointer',
-                                color: 'black',
+                                color: 'white',
                                 overflow: 'hidden'}} 
                                 onClick={() => onSelectCategory(categoria.nombre)}>
                             <img src={categoria.icono} alt={categoria.nombre} style={{ width: '70%', height: 'auto' }} />

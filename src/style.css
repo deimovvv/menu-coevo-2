@@ -38,7 +38,7 @@
  /*  font-weight: 200; */
   font-size: 25px;
   font-style: normal;
-  color: #191919; /* Color de texto para el título */
+  color: whitesmoke;  /* Color de texto para el título */
 }
 
 .card-price {
@@ -57,7 +57,7 @@
   font-weight: 500;
   font-size: 18px;
   font-style: normal;
-  color: #191919; /* Color de texto para el precio */
+  color: whitesmoke; /* Color de texto para el precio */
 }
 
 
