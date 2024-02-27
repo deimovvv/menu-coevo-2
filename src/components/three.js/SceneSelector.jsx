@@ -21,7 +21,7 @@ export default function SceneSelector({ category, name }) {
 
 // METODO VIEJO, NO BORRAR
 
-  /* export default function SceneSelector({ name }) {
+/*   export default function SceneSelector({ name }) {
     switch (name) {
       case 'mozzarella':
         return <ModelPizza1 />

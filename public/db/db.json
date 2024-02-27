@@ -1,0 +1,485 @@
+{
+    "foods": [
+      {
+        "id": 1,
+        "nombre": "GRANDES",
+        "descripcion": "Las clásicas de siempre, cerveza recomendada para acompañar: Mexican Lager/Juicy IPA",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18575.jpg",
+        "categoria": "PAPASFRITAS",
+        "precio" : "$4800,00"
+      },
+      {
+        "id": 2,
+        "nombre": "Cheddar y panceta",
+        "descripcion": "Cerveza recomendada para acompañar: juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18580.jpg",
+        "categoria": "PAPASFRITAS",
+        "precio" : "$6100,00"
+      },
+      
+      {
+        "id": 3,
+        "nombre": "BRADER",
+        "descripcion": "con queso mozzarella, panceta y huevo revuelto. Cerveza recomendada para acompañar: juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18581.jpg",
+        "categoria": "PAPASFRITAS",
+        "precio" : "$6000,00"
+      },
+      {
+        "id": 4,
+        "nombre": "lemondrop",
+        "descripcion": "cheddar y verdeo. Cerveza recomendada para acompañar: mexican lager/juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18576.jpg",
+        "categoria": "PAPASFRITAS",
+        "precio" : "$6000,00"
+      },
+      {
+        "id": 5,
+        "nombre": "al verdeo",
+        "descripcion": "con crema de verdeo. Cerveza recomendada para acompañar: mexican lager/hoppy lager",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18577.jpg",
+        "categoria": "PAPASFRITAS",
+        "precio" : "$5100,00"
+      },
+      {
+        "id": 6,
+        "nombre": "papas hops",
+        "descripcion": "provolone, pategrás, sardo, mozzarella, salsa blanca y trocitos de jamón crudo. Cerveza recomendada para acompañar: juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18582.jpg",
+        "categoria": "PAPASFRITAS",
+        "precio" : "$6100,00"
+      },
+      {
+        "id": 7,
+        "nombre": "ferroviarias",
+        "descripcion": "con salteado de pimientos y cebolla, queso mozzarella y huevo revuelto. Cerveza recomendada para acompañar: old ale/juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18578.jpg",
+        "categoria": "PAPASFRITAS",
+        "precio" : "$5300,00"
+      },
+      {
+        "id": 8,
+        "nombre": "salchipapa",
+        "descripcion": "con salchichas, cebolla caramelizada, cheddar y barbacoa. Cerveza recomendada para acompañar: mexican lager/juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18579.jpg",
+        "categoria": "PAPASFRITAS",
+        "precio" : "$6100,00"
+      },
+      {
+        "id": 9,
+        "nombre": "bastones de mozzarella",
+        "descripcion": "con lactonesa de ajo y barbacoa. Cerveza recomendada para acompañar: mexican lager/juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18987.jpg",
+        "categoria": "PARAPICAR",
+        "precio" : "$5300,00"
+      },
+      {
+        "id": 10,
+        "nombre": "dedos de pollo crujientes",
+        "descripcion": "con barbacoa y salsa de mostaza y miel. Cerveza recomendada para acompañar: old barrel/juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18988.jpg",
+        "categoria": "PARAPICAR",
+        "precio" : "$4400,00"
+      },
+      {
+        "id": 11,
+        "nombre": "empanada brader",
+        "descripcion": "queso azul, pategras, provolone, sardo y verdeo. Cerveza recomendada para acompañar: mexican lager/juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18620.jpg",
+        "categoria": "PARAPICAR",
+        "precio" : "$1400,00"
+      },
+      {
+        "id": 12,
+        "nombre": "empanada de carne",
+        "descripcion": "Cerveza recomendada para acompañar: mexican lager/juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18621.jpg",
+        "categoria": "PARAPICAR",
+        "precio" : "$1400,00"
+      },
+      {
+        "id": 13,
+        "nombre": "empanada jamón y queso",
+        "descripcion": "Cerveza recomendada para acompañar: mexican lager/juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18619.jpg",
+        "categoria": "PARAPICAR",
+        "precio" : "$1400,00"
+      },
+      {
+        "id": 14,
+        "nombre": "serrana",
+        "descripcion": "jamón crudo, rúcula y escamas de queso. Cerveza recomendada para acompañar: mexican lager",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18627.jpg",
+        "categoria": "BRUSCHETTAS",
+        "precio" : "$4200,00"
+      },
+      {
+        "id": 14,
+        "nombre": "pollo",
+        "descripcion": "pollo salteado de pimientos y aceitunas. Cerveza recomendada para acompañar: mexican lager/old ale/old barrel/juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18626.jpg",
+        "categoria": "BRUSCHETTAS",
+        "precio" : "$3900,00"
+      },
+      {
+        "id": 15,
+        "nombre": "huevo y palta",
+        "descripcion": "crema de palta, huevo revuelto, mozzarella, panceta y aceite de oliva. Cerveza recomendada para acompañar: mexican lager/juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18628.jpg",
+        "categoria": "BRUSCHETTAS",
+        "precio" : "$5300,00"
+      },
+      {
+        "id": 16,
+        "nombre": "mozzarella",
+        "descripcion": "salsa de tomate, queso mozzarella y aceitunas. Cerveza recomendada para acompañar: mexican lager/juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18583.jpg",
+        "categoria": "PIZZAS",
+        "precio" : "$6800,00"
+      },
+      {
+        "id": 17,
+        "nombre": "especial",
+        "descripcion": "salsa de tomate, queso mozzarella, jamón cocido, morrones y aceitunas. Cerveza recomendada para acompañar: mexican lager/old ale/juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18585.jpg",
+        "categoria": "PIZZAS",
+        "precio" : "$8200,00"
+      },
+      {
+        "id": 18,
+        "nombre": "cuatro quesos",
+        "descripcion": "salsa de tomate, queso mozzarella, sardo, azul, prvolone, pategrás y aceitunas. Cerveza recomendada para acompañar: juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18586.jpg",
+        "categoria": "PIZZAS",
+        "precio" : "$7400,00"
+      },
+      {
+        "id": 19,
+        "nombre": "mediterránea",
+        "descripcion": "salsa de tomate, queso mozzarella, jamón crudo, escamas de queso, rúcula y olivas. Cerveza recomendada para acompañar: juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18587.jpg",
+        "categoria": "PIZZAS",
+        "precio" : "$8300,00"
+      },
+      {
+        "id": 20,
+        "nombre": "fugazza",
+        "descripcion": "mozzarella, cebolla, oliva, aceitunas. Cerveza recomendada para acompañar: mexican lager/old ale/old barrel",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/19961.jpg",
+        "categoria": "PIZZAS",
+        "precio" : "$7400,00"
+      },
+      {
+        "id": 21,
+        "nombre": "caprese",
+        "descripcion": "mozzarella, tomate, oliva, albahaca, aceitunas. Cerveza recomendada para acompañar: mexican lager/old ale",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/19962.jpg",
+        "categoria": "PIZZAS",
+        "precio" : "$7400,00"
+      },
+      {
+        "id": 22,
+        "nombre": "pizza brader",
+        "descripcion": "mozzarella, queso azul, pesto y aceitunas. Cerveza recomendada para acompañar: juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/19963.jpg",
+        "categoria": "PIZZAS",
+        "precio" : "$7900,00"
+      },
+      {
+        "id": 23,
+        "nombre": "serrano",
+        "descripcion": "rúcula, tomate en rodajas, jamón crudo y escamas de queso. Cerveza recomendada para acompañar: mexican lager/juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18618.jpg",
+        "categoria": "SANDWICHES",
+        "precio" : "$5300,00"
+      },
+      {
+        "id": 24,
+        "nombre": "frodo",
+        "descripcion": "carne o pollo, queso mozzarella, panceta, crema de palta, lechuga y tomate. Cerveza recomendada para acompañar: mexican lager/juicy ipa. viene con papas",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18594.jpg",
+        "categoria": "LOMOS",
+        "precio" : "$10000,00"
+      },
+      {
+        "id": 25,
+        "nombre": "gollum",
+        "descripcion": "carne o pollo, jamón cocido, queso tybo, huevo, salsa criolla, lechuga y tomate. Cerveza recomendada para acompañar: mexican lager/old ale. viene con papas",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18588.jpg",
+        "categoria": "LOMOS",
+        "precio" : "$9000,00"
+      },
+      {
+        "id": 26,
+        "nombre": "sauron",
+        "descripcion": "carne o pollo, queso azul, pategrás, provolone, sardo, tybo, huevo, salsa de tomate y rucula. Cerveza recomendada para acompañar: juicy ipa. viene con papas",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18590.jpg",
+        "categoria": "LOMOS",
+        "precio" : "$9000,00"
+      },
+      {
+        "id": 27,
+        "nombre": "pipin",
+        "descripcion": "carne o pollo, queso tybo, panceta, huevo, salsa de tomate, lechuga y pimientos salteados. Cerveza recomendada para acompañar: old ale. viene con papas",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18592.jpg",
+        "categoria": "LOMOS",
+        "precio" : "$9000,00"
+      },
+      {
+        "id": 28,
+        "nombre": "calypso",
+        "descripcion": "carne, cheddar, cebolla caramelizada, huevo, panceta y rúcula. Cerveza recomendada para acompañar: old ale",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/19965.jpg",
+        "categoria": "LOMOS",
+        "precio" : "$9000,00"
+      },
+      {
+        "id": 29,
+        "nombre": "brader",
+        "descripcion": "doble medallón de carne, queso azul, crema de palta y salsa criolla. Cerveza recomendada para acompañar: juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18605.jpg",
+        "categoria": "HAMBURGUESAS",
+        "precio" : "$6400,00"
+      },
+      {
+        "id": 30,
+        "nombre": "american brader",
+        "descripcion": "doble medallón de carne, cheddar y panceta. Cerveza recomendada para acompañar: juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18601.jpg",
+        "categoria": "HAMBURGUESAS",
+        "precio" : "$6400,00"
+      },
+      {
+        "id": 31,
+        "nombre": "thorin",
+        "descripcion": "doble medallón de carne, jamón cocido, queso tybo, crema de palta, tomate y cebolla. Cerveza recomendada para acompañar: mexican lager/old barrel/juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18603.jpg",
+        "categoria": "HAMBURGUESAS",
+        "precio" : "$6400,00"
+      },
+      {
+        "id": 32,
+        "nombre": "la 4:20",
+        "descripcion": "doble medallón de carne, queso cheddar, panceta, aros de cebolla morada y tomate. Cerveza recomendada para acompañar: juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18603.jpg",
+        "categoria": "HAMBURGUESAS",
+        "precio" : "$6400,00"
+      },
+      {
+        "id": 33,
+        "nombre": "galaxy",
+        "descripcion": "doble medallón de carne, salsa galaxy, aros de cebolla, cheddar y panceta. Cerveza recomendada para acompañar: old ale/juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18598.jpg",
+        "categoria": "HAMBURGUESAS",
+        "precio" : "$6400,00"
+      },
+      {
+        "id": 33,
+        "nombre": "ensalada brader",
+        "descripcion": "mix de verdes, tomate, escamas de queso, pollo y croutons. Cerveza recomendada para acompañar: mexican lager/juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18622.jpg",
+        "categoria": "ENSALADAS",
+        "precio" : "$4500,00"
+      },
+      {
+        "id": 34,
+        "nombre": "ensalada baruc",
+        "descripcion": "rúcula, cebolla morada, tomate, jamón crudo y queso sardo. Cerveza recomendada para acompañar: mexican lager/juicy ipa/old ale/old barrel",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18623.jpg",
+        "categoria": "ENSALADAS",
+        "precio" : "$5400,00"
+      },
+      {
+        "id": 35,
+        "nombre": "de palta",
+        "descripcion": "palta, rúcula, lechuga, tomate y queso. Cerveza recomendada para acompañar: mexican lager/old barrel",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18624.jpg",
+        "categoria": "ENSALADAS",
+        "precio" : "$6600,00"
+      },
+      {
+        "id": 36,
+        "nombre": "especial de quesos y fiambres",
+        "descripcion": "solo disponible en bar. cuatro variedades de quesos, cuatro variedades de fiambres, olivas. Cerveza recomendada para acompañar: mexican lager/old barrel/old ale/juicy ipa",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18629.jpg",
+        "categoria": "TABLAS",
+        "precio" : "$13000,00"
+      },
+      {
+        "id": 37,
+        "nombre": "hamburguesa galaxy sin tacc",
+        "descripcion": "doble medallón de carne, salsa galaxy, aros de cebolla morada, cheddar y panceta. sale con ensalada de lechuga y tomate",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18600.jpg",
+        "categoria": "SINTACC",
+        "precio" : "$7100,00"
+      },
+      {
+        "id": 38,
+        "nombre": "hamburguesa thorin sin tacc",
+        "descripcion": "doble medallón de carne, jamón cocido, queso tybo, crema de palta, tomate y cebolla. sale con ensalada de lechuga y tomate",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18602.jpg",
+        "categoria": "SINTACC",
+        "precio" : "$7100,00"
+      },
+      {
+        "id": 39,
+        "nombre": "lomo calypso sin tacc",
+        "descripcion": "carne, cheddar, cebolla caramelizada, huevo, panceta y rúcula. sale con ensalada de lechuga y tomate",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/20771.jpg",
+        "categoria": "SINTACC",
+        "precio" : "$9500,00"
+      },
+      {
+        "id": 40,
+        "nombre": "sandwich vegetariano sin tacc",
+        "descripcion": "rúcula, queso mozzarella y vegetales al horno",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18617.jpg",
+        "categoria": "SINTACC",
+        "precio" : "$5700,00"
+      },
+      {
+        "id": 41,
+        "nombre": "gin tónico del brader",
+        "descripcion": "Blend de gines, Heraclito London dry y Macedonio, agua tónica. Acompáñalo con cítricos, hierbas frescas, pepino o mix de pimientas.",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18634.jpg",
+        "categoria": "TRAGOS",
+        "precio" : "$4300,00"
+      },
+      {
+        "id": 42,
+        "nombre": "BELTRAN Y BIRITOS",
+        "descripcion": "Blend de gines, Heraclito London Dry y Macedonio, sour mix de almíbar y jugos de cítricos, splash de espumante Extra Brut.",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18635.jpg",
+        "categoria": "TRAGOS",
+        "precio" : "$4000,00"
+      },
+      {
+        "id": 43,
+        "nombre": "GIN BASIL SMASH",
+        "descripcion": "Gin Tanqueray London Dry, albahaca fresca, sour mix de almíbar y jugo de limón.",
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18636.jpg",
+        "categoria": "TRAGOS",
+        "precio" : "$4000,00"
+      },
+      {
+        "id": 44,
+        "nombre": "EL CAMINANTE SOUR",
+        "descripcion": "Johnnie Walker Red Label, sour mix de almíbar y jugo de limón, touch de mix de pimientas.",     
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18643.jpg",
+        "categoria": "TRAGOS",
+        "precio" : "$4000,00"
+      },
+      {
+        "id": 45,
+        "nombre": "PIZZA VEGETARIANA",
+        "descripcion": "Salsa de tomate, queso mozzarella, salteado de vegetales de estación, rúcula y aceitunas. Cerveza recomendada para acompañar: Mexican Lager/Old Ale/Old Barrel",     
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18584.jpg",
+        "categoria": "VEGGIE",
+        "precio" : "$7400,00"
+      },
+      {
+        "id": 46,
+        "nombre": "SANDWICH VEGETARIANO",
+        "descripcion": " Rúcula, queso mozzarella. y vegetales al horno. Cerveza recomendada para acompañar: Mexican Lager",     
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18616.jpg",
+        "categoria": "VEGGIE",
+        "precio" : "$5300,00"
+      },
+      {
+        "id": 47,
+        "nombre": "BRUSCHETTA VEGETARIANA",
+        "descripcion": "Vegetales de estación, queso mozzarella y rúcula. Cerveza recomendada para acompañar: Mexican Lager/Old Ale",     
+        "imagen": "https://ipage.ar/cartaonline/img/productos/18625.jpg",
+        "categoria": "VEGGIE",
+        "precio" : "$3700,00"
+      },
+      {
+        "id": 48,
+        "nombre": "chocotorta",
+        "descripcion": "Cerveza recomendada para acompañar: Old Ale",     
+        "imagen": "https://media.istockphoto.com/id/1327623325/es/foto/chocotorta-casera.jpg?s=612x612&w=0&k=20&c=T0Q87R2JAW8Kl3x6c_mC2H-zk4rEW_rz-29EBfZrbAM=",
+        "categoria": "POSTRES",
+        "precio" : "$2200,00"
+      },
+      {
+        "id": 49,
+        "nombre": "CHEESECAKE CON FRUTOS ROJOS",
+        "descripcion": " Cerveza recomendada para acompañar: Old Ale",     
+        "imagen": "https://media.istockphoto.com/id/515447912/es/foto/cheesecake-de-ar%C3%A1ndanos.jpg?s=612x612&w=0&k=20&c=pXL2y5-tCSkB3hNBD51eB9_Z9SEwD3BiG0LQIFMnX_A=",
+        "categoria": "POSTRES",
+        "precio" : "$2200,00"
+      },
+      {
+        "id": 50,
+        "nombre": "CHOCO OREO",
+        "descripcion": "Cerveza recomendada para acompañar: Old Barrel.",     
+        "imagen": "https://img-global.cpcdn.com/recipes/2dd9cd9c51ea503e/680x482cq70/torta-choco-oreo-foto-principal.jpg",
+        "categoria": "POSTRES",
+        "precio" : "$2200,00"
+      },
+      {
+        "id": 51,
+        "nombre": "coca cola",
+        "descripcion": "",     
+        "imagen": "https://cdn-3.expansion.mx/dims4/default/bc1bdf5/2147483647/strip/true/crop/2096x1430+0+0/resize/600x409!/format/webp/quality/60/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F95%2F6c%2F722abfb544dcb4a46b9ca967a1ef%2Fistock-499925476.jpg",
+        "categoria": "GASEOSAS",
+        "precio" : "$1200,00"
+      },
+      {
+        "id": 52,
+        "nombre": "fanta",
+        "descripcion": "",     
+        "imagen": "https://marketing-interactive-assets.b-cdn.net/images/sg/content-images/tiktok/fanta_old_logo_refresh.jpg?auto_optimize=medium",
+        "categoria": "GASEOSAS",
+        "precio" : "$1200,00"
+      },
+      {
+        "id": 53,
+        "nombre": "sprite",
+        "descripcion": "",     
+        "imagen": "https://www.coca-cola.com/content/dam/onexp/uy/es/brands/sprite/es_sprite_header01_desktop_1440x810_v1.jpg",
+        "categoria": "GASEOSAS",
+        "precio" : "$1200,00"
+      },
+      {
+        "id": 54,
+        "nombre": "agua mineral",
+        "descripcion": "",     
+        "imagen": "https://institutoaguaysalud.es/wp-content/uploads/2019/10/FOTO-PORTADA.jpg",
+        "categoria": "GASEOSAS",
+        "precio" : "$1200,00"
+      },
+      {
+        "id": 55,
+        "nombre": "media pinta común",
+        "descripcion": "vaso de 250ml",     
+        "imagen": "https://media.istockphoto.com/id/480775284/es/foto/vuelo-de-cerveza-artesanal.jpg?s=612x612&w=0&k=20&c=_B4pm-IazbYcptApvifgq_OUmkrKJ5fwZt7ga-wC490=",
+        "categoria": "CERVEZAS",
+        "precio" : "$1300,00"
+      },
+      {
+        "id": 56,
+        "nombre": "media pinta especial",
+        "descripcion": "vaso de 250ml",     
+        "imagen": "https://media.istockphoto.com/id/480775284/es/foto/vuelo-de-cerveza-artesanal.jpg?s=612x612&w=0&k=20&c=_B4pm-IazbYcptApvifgq_OUmkrKJ5fwZt7ga-wC490=",
+        "categoria": "CERVEZAS",
+        "precio" : "$1600,00"
+      },
+      {
+        "id": 57,
+        "nombre": "pinta",
+        "descripcion": "vaso de 500ml",     
+        "imagen": "https://media.istockphoto.com/id/480775284/es/foto/vuelo-de-cerveza-artesanal.jpg?s=612x612&w=0&k=20&c=_B4pm-IazbYcptApvifgq_OUmkrKJ5fwZt7ga-wC490=",
+        "categoria": "CERVEZAS",
+        "precio" : "$2100,00"
+      },
+      {
+        "id": 58,
+        "nombre": "pinta especial",
+        "descripcion": "vaso de 500ml",     
+        "imagen": "https://media.istockphoto.com/id/480775284/es/foto/vuelo-de-cerveza-artesanal.jpg?s=612x612&w=0&k=20&c=_B4pm-IazbYcptApvifgq_OUmkrKJ5fwZt7ga-wC490=",
+        "categoria": "CERVEZAS",
+        "precio" : "$2500,00"
+      }
+    ]
+  }
