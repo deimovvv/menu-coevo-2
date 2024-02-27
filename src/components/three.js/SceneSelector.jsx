@@ -1,6 +1,7 @@
 import {
   View
 } from "@react-three/drei";
+import { Suspense } from "react";
 import modelsByCategory from "../../helpers/modelsByCategory";
 import { CuatroQuesos } from "./modelsProducts/CuatroQuesos";
 import { Pepperoni } from "./modelsProducts/Pepperoni";
@@ -12,7 +13,9 @@ export default function SceneSelector({ category, name }) {
   const CategoryModels = modelsByCategory[category] || {};
   const ModelComponent = CategoryModels[name];
 
-  return ModelComponent ? <ModelComponent /> : <>Modelo no encontrado</>;
+  return ModelComponent ?  <ModelComponent />
+  
+ : <>Modelo no encontrado</>;
 }
 
 
