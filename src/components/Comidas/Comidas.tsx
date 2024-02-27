@@ -37,14 +37,14 @@ const Comidas = ({ foods }: { foods: Food[] }) => {
                 <div className="col" key={food.id}>
                   <div className="card h-100 card-transparent">
                     <div  className="" style={{ minHeight: '300px' }}  > 
-  {/*                   {
+                    {
     categoriasConImagen.includes(food.categoria) ? 
     <img style={{minHeight: '300px', maxHeight: '300px'}} className="card-img-top" src={food.imagen} alt={food.nombre} /> 
     : 
     <Experience category={food.categoria}  name={food.nombre}/>
-  }  */}
+  } 
 
-<Experience category={food.categoria}  name={food.nombre}/>
+{/* <Experience category={food.categoria}  name={food.nombre}/> */}
                       </div>
                     
 
