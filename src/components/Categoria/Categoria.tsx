@@ -27,6 +27,7 @@ const Categorias = () => {
     <div className="container mt-5">
       <CategoriaSelector onSelectCategory={setSelectedCategory} /> {/* Pasa la función para manejar la selección de categoría */}
       <Comidas foods={filteredFoods} />
+     
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import { Food } from "../../Types/Food";
 import "../../style.css";
 import Experience from "../three.js/Experience.jsx";
+import Footer from "../Footer/Footer";
 
 const Comidas = ({ foods }: { foods: Food[] }) => {
   const categorias = [
@@ -22,7 +23,7 @@ const Comidas = ({ foods }: { foods: Food[] }) => {
   ];
 
 
-  const categoriasConImagen = ["TRAGOS", "CERVEZAS", "GASEOSAS",   "SINTACC", "PARAPICAR",  "PAPASFRITAS",  "BRUSCHETTAS", "LOMOS",  "VEGGIE",   "POSTRES", ];
+  const categoriasConImagen = ["TRAGOS", "CERVEZAS", "GASEOSAS",   "SINTACC", "PARAPICAR",  "BRUSCHETTAS", "LOMOS",  "VEGGIE",   "POSTRES", ];
 
   return (
     <section className="container-fluid mt-5" id="categorias">
@@ -40,8 +41,8 @@ const Comidas = ({ foods }: { foods: Food[] }) => {
     categoriasConImagen.includes(food.categoria) ? 
     <img style={{minHeight: '300px', maxHeight: '300px'}} className="card-img-top" src={food.imagen} alt={food.nombre} /> 
     : 
-    <Experience name={food.nombre}/>
-  }
+    <Experience category={food.categoria}  name={food.nombre}/>
+  } 
                       </div>
                     
 
@@ -76,7 +77,9 @@ const Comidas = ({ foods }: { foods: Food[] }) => {
               ))}
           </div>
         </section>
+       
       ))}
+       <Footer/>
     </section>
   );
 };

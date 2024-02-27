@@ -10,7 +10,7 @@ const App = () => {
       <Router>
         <Header />
           <AppRoutes />
-        <Footer />
+       {/*  <Footer /> */}
       </Router>
 
     </>
