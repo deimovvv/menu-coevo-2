@@ -11,19 +11,54 @@ const modelsByCategory = {
       mediterránea: ModelPizza1,
       caprese: Pepperoni,
       fugazza: CuatroQuesos,
+      "pizza brader": CuatroQuesos,
       // Agrega más aquí
     },
-    empanadas: {
+    PARAPICAR: {
+      "bastones de mozzarella": CuatroQuesos,
+      "dedos de pollo crujientes": ModelPizza1,
+      "empanada brader": CuatroQuesos,
+      "empanada de carne": ModelPizza1,
+      "empanada jamón y queso": CuatroQuesos
+    },
+    LOMOS: {
+      frodo: CuatroQuesos,
+      gollum: Pepperoni,
+      sauron: ModelPizza1,
+      pipin: CuatroQuesos,
+      calypso: CuatroQuesos,
       // Modelos de empanadas
     },
-    postres: {
+    HAMBURGUESAS: {
       // Modelos de postres
+      brader: ModelPizza1,
+      "american brader": Pepperoni,
+      thorin: Pepperoni,
+     "la 4:20": ModelPizza1,
+     galaxy: ModelPizza1,
+
+
     },
    PAPASFRITAS: {
     "Cheddar y panceta":  ModelPizza1,
     GRANDES: Pepperoni,
+    BRADER: Pepperoni,
+    lemondrop: ModelPizza1,
+    "al verdeo": ModelPizza1,
+    "papas hops": CuatroQuesos,
+    ferroviarias: Pepperoni,
+    salchipapa: ModelPizza1,
+
       // Modelos de papas fritas
     },
+    SANDWICHES: {
+      serrano: Pepperoni
+    },
+    VEGGIE: {
+      "PIZZA VEGETARIANA": Pepperoni,
+      "SANDWICH VEGETARIANO": ModelPizza1,
+      "BRUSCHETTA VEGETARIANA": ModelPizza1
+    }
     // Agrega más categorías según sea necesario
   };
   
