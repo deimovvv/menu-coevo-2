@@ -23,7 +23,7 @@ const Comidas = ({ foods }: { foods: Food[] }) => {
   ];
 
 
-  const categoriasConImagen = ["TRAGOS", "CERVEZAS", "GASEOSAS",   "SINTACC", "PARAPICAR",  "BRUSCHETTAS", "LOMOS",  "VEGGIE",   "POSTRES", ];
+  /* const categoriasConImagen = ["TRAGOS", "CERVEZAS", "GASEOSAS",   "SINTACC", "PARAPICAR",  "BRUSCHETTAS", "LOMOS",  "VEGGIE",   "POSTRES", ]; */
 
   return (
     <section className="container-fluid mt-5" id="categorias">
