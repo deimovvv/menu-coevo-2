@@ -2,8 +2,13 @@ import { Food } from "../../Types/Food";
 import "../../style.css";
 import Experience from "../three.js/Experience.jsx";
 import Footer from "../Footer/Footer";
+import ExperienceView from './../three.js/ExperienceView';
+import { Canvas } from "@react-three/fiber";
+import { useRef } from "react";
+import { View } from "@react-three/drei";
 
 const Comidas = ({ foods }: { foods: Food[] }) => {
+  const refContainer = useRef(null)
   const categorias = [
     "PAPASFRITAS",
     "PARAPICAR",
@@ -26,6 +31,11 @@ const Comidas = ({ foods }: { foods: Food[] }) => {
   /* const categoriasConImagen = ["TRAGOS", "CERVEZAS", "GASEOSAS",   "SINTACC", "PARAPICAR",  "BRUSCHETTAS", "LOMOS",  "VEGGIE",   "POSTRES", ]; */
 
   return (
+    <div ref={refContainer} className="container-canvas">
+      <Canvas eventSource={refContainer} className="canvas">
+      <View.Port />
+      </Canvas>
+
     <section className="container-fluid mt-5" id="categorias">
       {categorias.map((categoria, index) => (
         <section className="text-center mb-5" key={index}>
@@ -44,7 +54,8 @@ const Comidas = ({ foods }: { foods: Food[] }) => {
     <Experience category={food.categoria}  name={food.nombre}/>
   }  */}
 
-<Experience category={food.categoria}  name={food.nombre}/>
+{/* <Experience category={food.categoria}  name={food.nombre}/> */}
+<ExperienceView category={food.categoria}  name={food.nombre}/>
                       </div>
                     
 
@@ -83,6 +94,8 @@ const Comidas = ({ foods }: { foods: Food[] }) => {
       ))}
        <Footer/>
     </section>
+    </div>
+
   );
 };
 

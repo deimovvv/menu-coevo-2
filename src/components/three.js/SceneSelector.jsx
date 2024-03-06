@@ -9,11 +9,11 @@ import { ModelPizza1 } from "./modelsProducts/PizzaOptimizada2";
 
  // Ajusta la ruta según sea necesario
 
-export default function SceneSelector({ category, name }) {
+export default function SceneSelector({ category, name, inView }) {
   const CategoryModels = modelsByCategory[category] || {};
   const ModelComponent = CategoryModels[name];
 
-  return ModelComponent ?  <ModelComponent />
+  return ModelComponent ?  <ModelComponent inView={inView}/>
   
  : <>Modelo no encontrado</>;
 }
