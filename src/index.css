@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    pointer-events: none !important;
 }
 
 /* Estilos para el cuerpo y la imagen del logo */
@@ -9,7 +11,7 @@ body {
     /* background-image: url('/src/images/fondodesktop.jpg'); */
     /* Ruta de la imagen de fondo predeterminada para computadoras */
     background-color: rgb(28, 28, 28);
-
+    /* -webkit-overflow-scrolling: touch;overflow-y: scroll; */
   }
   
   .logo-img {
@@ -31,6 +33,7 @@ body {
 .row{
   margin-left:0 !important;
   margin-right:0 !important;
+
 }
   .container-canvas {
     position: relative;
@@ -41,7 +44,7 @@ body {
   }
   
   .canvas {
-    pointer-events: none;
+    /* pointer-events: all; */
     position: fixed !important;
     top: 0px;
     left: 0px;
@@ -52,8 +55,8 @@ body {
   .view{
     width:100%;
     aspect-ratio: 1;
-    cursor: pointer;
-    
+    /* cursor: pointer; */
+ 
   }
   
   
