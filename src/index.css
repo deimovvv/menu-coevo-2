@@ -41,7 +41,7 @@ body {
     height: 100%;
     /* display: grid; */
     /* grid-template-columns: 1fr 1fr; */
-    pointer-events: none !important
+    pointer-events: none !important;
   }
   
   .canvas {
