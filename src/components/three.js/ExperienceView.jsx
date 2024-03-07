@@ -43,16 +43,16 @@ import { useInView } from "react-intersection-observer";
     }, []); // No necesitas incluir containerRef.current en la lista de dependencias
   
 
-    useEffect(() => {
-     setTimeout(() => {
+    // useEffect(() => {
+    //  setTimeout(() => {
     
-      const divs = document.querySelectorAll('.view');
-      for (let i = 0; i < divs.length; i++) {
-        divs[i].style.cssText = "pointer-events: all !important";
-      }
+    //   const divs = document.querySelectorAll('.view');
+    //   for (let i = 0; i < divs.length; i++) {
+    //     divs[i].style.cssText = "pointer-events: all !important";
+    //   }
 
-     }, 1000)
-    }, []);
+    //  }, 1000)
+    // }, []);
     return (
       <View className="view" ref={ref} >
       

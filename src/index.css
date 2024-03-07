@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     -webkit-overflow-scrolling: touch;
-    pointer-events: none !important;
+   
 }
 
 /* Estilos para el cuerpo y la imagen del logo */
@@ -41,6 +41,7 @@ body {
     height: 100%;
     /* display: grid; */
     /* grid-template-columns: 1fr 1fr; */
+    pointer-events: none !important
   }
   
   .canvas {
@@ -50,12 +51,14 @@ body {
     left: 0px;
     width: 100vw;
     height: 100vh;
+    pointer-events: none !important;
   }
 
   .view{
     width:100%;
     aspect-ratio: 1;
     /* cursor: pointer; */
+    pointer-events: all !important;
  
   }
   

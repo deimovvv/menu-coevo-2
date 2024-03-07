@@ -4,11 +4,12 @@ import Experience from "../three.js/Experience.jsx";
 import Footer from "../Footer/Footer";
 import ExperienceView from './../three.js/ExperienceView';
 import { Canvas } from "@react-three/fiber";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { View } from "@react-three/drei";
 
 const Comidas = ({ foods }: { foods: Food[] }) => {
   const refContainer = useRef(null)
+  const refContainerComidas = useRef(null)
   const categorias = [
     "PAPASFRITAS",
     "PARAPICAR",
@@ -27,6 +28,11 @@ const Comidas = ({ foods }: { foods: Food[] }) => {
     "POSTRES",
   ];
 
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     refContainerComidas.current.style.cssText = "pointer-events: all !important";
+  //   }, 1000)
+  // }, []);
 
   /* const categoriasConImagen = ["TRAGOS", "CERVEZAS", "GASEOSAS",   "SINTACC", "PARAPICAR",  "BRUSCHETTAS", "LOMOS",  "VEGGIE",   "POSTRES", ]; */
 
@@ -36,7 +42,7 @@ const Comidas = ({ foods }: { foods: Food[] }) => {
       <View.Port />
       </Canvas>
 
-    <section className="container-fluid mt-5" id="categorias">
+    <section className="container-fluid mt-5" id="categorias" ref={refContainerComidas}>
       {categorias.map((categoria, index) => (
         <section className="text-center mb-5" key={index}>
           <div className="row row-cols-1 row-cols-md-2 row-cols-xl-3 justify-content-center g-5">
