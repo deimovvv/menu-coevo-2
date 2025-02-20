@@ -1,6 +1,8 @@
 import { CuatroQuesos } from "../components/three.js/modelsProducts/CuatroQuesos";
 import { Pepperoni } from "../components/three.js/modelsProducts/Pepperoni";
 import { ModelPizza1 } from "../components/three.js/modelsProducts/PizzaOptimizada2";
+import { PeperroniTest } from "../components/three.js/modelsProducts/PeperroniTest";
+
 
 
 const modelsByCategory = {
@@ -8,7 +10,7 @@ const modelsByCategory = {
       mozzarella: ModelPizza1,
       especial: Pepperoni,
       "cuatro quesos": CuatroQuesos,
-      mediterránea: ModelPizza1,
+      mediterránea: PeperroniTest,
       caprese: Pepperoni,
       fugazza: CuatroQuesos,
       "pizza brader": CuatroQuesos,

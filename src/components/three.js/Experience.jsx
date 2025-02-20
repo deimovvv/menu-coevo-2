@@ -59,8 +59,8 @@ export default function Experience({name, category}) {
         autoRotate={true}
       />
 
-      <directionalLight castShadow position={[1, 2, 3]} intensity={5.2} />
-      <ambientLight intensity={1} />
+      <directionalLight castShadow position={[1, 2, 3]} intensity={0.6} />
+      <ambientLight intensity={0} />
       <Environment preset={"sunset"} />
       
 

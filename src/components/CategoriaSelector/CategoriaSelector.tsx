@@ -43,7 +43,7 @@ const CategoriasSelector: React.FC<CategoriasSelectorProps> = ({ onSelectCategor
                             <img src={categoria.icono} alt={categoria.nombre} style={{ width: '70%', height: 'auto' }} />
                             <div style={{ position: 'absolute', bottom: '20px', left: '0', right: '0', textAlign: 'center' }}>{categoria.nombre}</div>
                             {/* Reducir el grosor del borde */}
-                            <div style={{ position: 'absolute', top: '0px', left: '0', right: '0', bottom: '0', border: '1.5px solid white', borderRadius: '0.5rem' }}></div>
+                            <div style={{ position: 'absolute', top: '0px', left: '0', right: '0', bottom: '0', border: '1.0px solid white', borderRadius: '0.5rem' }}></div>
                         </Link>
                     </div>
                 ))}
