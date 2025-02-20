@@ -57,8 +57,8 @@ const Comidas = ({ foods }: { foods: Food[] }) => {
 
                     <div className="card-body p-4">
                       <div className="text-center">
-                        <h5 className="card-title fw-bold">{food.nombre}</h5>
-                        <p className="card-description">{`${food.descripcion}`}</p>
+                        <h5 className="card-title fw-bold text-black">{food.nombre}</h5>
+                        <p className="card-description text-black">{`${food.descripcion}`}</p>
                       </div>
                     </div>
                     <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">

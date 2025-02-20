@@ -8,12 +8,12 @@
 body {
     /* background-image: url('/src/images/fondodesktop.jpg'); */
     /* Ruta de la imagen de fondo predeterminada para computadoras */
-    background-color: rgb(28, 28, 28);
+    background-color: rgb(232, 232, 232);
 
   }
   
   .logo-img {
-    width: 250px;
+    width: 300px;
     height: auto;
     display: flex;
     justify-content: center;
@@ -35,14 +35,14 @@ body {
   @media (max-width: 767px) {
     body {
      /*  background-image: url('/src/images/fondomobile.jpg'); */
-     background-color: rgb(28, 28, 28);
+     background-color: rgb(232, 232, 232);
 
 
       /* Ruta de la imagen de fondo para dispositivos móviles */
     }
   
     .logo-img {
-      width: 150px;
+      width: 220px;
       /* Tamaño de la imagen para dispositivos móviles */
       height: auto;
       display: flex;

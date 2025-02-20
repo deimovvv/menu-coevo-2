@@ -34,7 +34,7 @@ const CategoriasSelector: React.FC<CategoriasSelectorProps> = ({ onSelectCategor
                                 width: '150px',
                                 height: '150px',
                                 cursor: 'pointer',
-                                color: 'white',
+                                /* color: 'black', */
                                 overflow: 'hidden',
                                 position: 'relative', // Agrega esta línea para que el posicionamiento sea relativo
                             }}
